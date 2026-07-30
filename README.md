@@ -108,6 +108,17 @@ This project uses the **TMDB 5000 Movies Dataset** for building the recommendati
 
 If you have any suggestions or feedback, feel free to connect with me on LinkedIn
 
+## 📸 Screenshots
+
+### Home Page
+![Home](images/home.png)
+
+### Search
+![Search](images/search.png)
+
+### Recommendations
+![Recommendations](images/recommendations.png)
+
 ## 🚀 Live Demo
 
 https://movie-recommendation-system-i5z4ravbwnwhsbvpmldqwu.streamlit.app/
