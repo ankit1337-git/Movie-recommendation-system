@@ -19,3 +19,5 @@ Thumbs.db
 .DS_Store
 
 similarity.pkl
+
+.streamlit/secrets.toml
