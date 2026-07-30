@@ -2,6 +2,17 @@ import streamlit as st
 import pickle
 import requests
 import time
+import os
+import gdown
+
+FILE_ID = "1KoIICFUHh2GcWIAa9hZ856qk7TSUzPrw"
+
+if not os.path.exists("similarity.pkl"):
+    gdown.download(
+        f"https://drive.google.com/uc?id={FILE_ID}",
+        "similarity.pkl",
+        quiet=False
+    )
 
 st.set_page_config(
     page_title="Movie Recommendation System",
